@@ -1,9 +1,17 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
+import { TransactionProvider } from "./contexts/TransactionContext";
+
+import MainLayout from "./components/layout/MainLayout";
+import Dashboard from "./pages/Dashboard";
+import Imports from "./pages/Imports";
+import Exports from "./pages/Exports";
+import AddTransaction from "./pages/AddTransaction";
+import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -11,15 +19,20 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+      <TransactionProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<MainLayout><Dashboard /></MainLayout>} />
+            <Route path="/imports" element={<MainLayout><Imports /></MainLayout>} />
+            <Route path="/exports" element={<MainLayout><Exports /></MainLayout>} />
+            <Route path="/add-transaction" element={<MainLayout><AddTransaction /></MainLayout>} />
+            <Route path="/settings" element={<MainLayout><Settings /></MainLayout>} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </TransactionProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );

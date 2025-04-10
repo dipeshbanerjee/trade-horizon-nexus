@@ -7,11 +7,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { TransactionProvider } from "./contexts/TransactionContext";
 
 import MainLayout from "./components/layout/MainLayout";
-import Dashboard from "./pages/Dashboard";
-import Imports from "./pages/Imports";
-import Exports from "./pages/Exports";
-import AddTransaction from "./pages/AddTransaction";
-import Settings from "./pages/Settings";
+import Home from "./pages/Home";
+import Products from "./pages/Products";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,11 +24,10 @@ const App = () => {
             <Toaster />
             <Sonner />
             <Routes>
-              <Route path="/" element={<MainLayout><Dashboard /></MainLayout>} />
-              <Route path="/imports" element={<MainLayout><Imports /></MainLayout>} />
-              <Route path="/exports" element={<MainLayout><Exports /></MainLayout>} />
-              <Route path="/add-transaction" element={<MainLayout><AddTransaction /></MainLayout>} />
-              <Route path="/settings" element={<MainLayout><Settings /></MainLayout>} />
+              <Route path="/" element={<MainLayout><Home /></MainLayout>} />
+              <Route path="/products" element={<MainLayout><Products /></MainLayout>} />
+              <Route path="/services" element={<MainLayout><Services /></MainLayout>} />
+              <Route path="/contact" element={<MainLayout><Contact /></MainLayout>} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </TooltipProvider>

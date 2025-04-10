@@ -27,8 +27,11 @@ const Home = () => {
               </Link>
             </div>
             <div className="hidden md:block">
-              {/* This would be an image in the real implementation */}
-              <div className="bg-amber-200 h-80 rounded-lg shadow-md"></div>
+              <img 
+                src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+                alt="Global Trade" 
+                className="rounded-lg shadow-md object-cover h-80 w-full"
+              />
             </div>
           </div>
         </div>
@@ -48,26 +51,46 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="bg-white shadow hover:shadow-md transition-shadow">
               <CardContent className="pt-6">
-                <h3 className="font-semibold text-lg mb-2">Global Network</h3>
-                <p className="text-gray-600">Extensive network of partners across continents</p>
+                <img 
+                  src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+                  alt="Global Network" 
+                  className="w-16 h-16 mx-auto mb-3 rounded-full object-cover"
+                />
+                <h3 className="font-semibold text-lg mb-2 text-center">Global Network</h3>
+                <p className="text-gray-600 text-center">Extensive network of partners across continents</p>
               </CardContent>
             </Card>
             <Card className="bg-white shadow hover:shadow-md transition-shadow">
               <CardContent className="pt-6">
-                <h3 className="font-semibold text-lg mb-2">Quality Assurance</h3>
-                <p className="text-gray-600">Rigorous quality control for all products</p>
+                <img 
+                  src="https://images.unsplash.com/photo-1532187643603-ba119ca4109e?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+                  alt="Quality Assurance" 
+                  className="w-16 h-16 mx-auto mb-3 rounded-full object-cover"
+                />
+                <h3 className="font-semibold text-lg mb-2 text-center">Quality Assurance</h3>
+                <p className="text-gray-600 text-center">Rigorous quality control for all products</p>
               </CardContent>
             </Card>
             <Card className="bg-white shadow hover:shadow-md transition-shadow">
               <CardContent className="pt-6">
-                <h3 className="font-semibold text-lg mb-2">Fast Delivery</h3>
-                <p className="text-gray-600">Efficient logistics and timely delivery</p>
+                <img 
+                  src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+                  alt="Fast Delivery" 
+                  className="w-16 h-16 mx-auto mb-3 rounded-full object-cover"
+                />
+                <h3 className="font-semibold text-lg mb-2 text-center">Fast Delivery</h3>
+                <p className="text-gray-600 text-center">Efficient logistics and timely delivery</p>
               </CardContent>
             </Card>
             <Card className="bg-white shadow hover:shadow-md transition-shadow">
               <CardContent className="pt-6">
-                <h3 className="font-semibold text-lg mb-2">Customer Service</h3>
-                <p className="text-gray-600">Dedicated support for your needs</p>
+                <img 
+                  src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+                  alt="Customer Service" 
+                  className="w-16 h-16 mx-auto mb-3 rounded-full object-cover"
+                />
+                <h3 className="font-semibold text-lg mb-2 text-center">Customer Service</h3>
+                <p className="text-gray-600 text-center">Dedicated support for your needs</p>
               </CardContent>
             </Card>
           </div>
@@ -85,7 +108,11 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Link to="/products" className="group">
               <div className="bg-white rounded-lg shadow overflow-hidden hover:shadow-md transition-shadow">
-                <div className="h-48 bg-amber-100"></div>
+                <img 
+                  src="https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+                  alt="Agro Commodities" 
+                  className="h-48 w-full object-cover"
+                />
                 <div className="p-4">
                   <h3 className="font-semibold text-lg mb-2 group-hover:text-green-600">Agro Commodities</h3>
                   <p className="text-gray-600">Fresh produce and agricultural products</p>
@@ -95,7 +122,11 @@ const Home = () => {
             
             <Link to="/products" className="group">
               <div className="bg-white rounded-lg shadow overflow-hidden hover:shadow-md transition-shadow">
-                <div className="h-48 bg-red-100"></div>
+                <img 
+                  src="https://images.unsplash.com/photo-1581922819941-6ab31ab79afc?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+                  alt="General Trading" 
+                  className="h-48 w-full object-cover"
+                />
                 <div className="p-4">
                   <h3 className="font-semibold text-lg mb-2 group-hover:text-green-600">General Trading</h3>
                   <p className="text-gray-600">Various consumer goods and products</p>
@@ -105,7 +136,11 @@ const Home = () => {
             
             <Link to="/products" className="group">
               <div className="bg-white rounded-lg shadow overflow-hidden hover:shadow-md transition-shadow">
-                <div className="h-48 bg-blue-100"></div>
+                <img 
+                  src="https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+                  alt="Paper Products" 
+                  className="h-48 w-full object-cover"
+                />
                 <div className="p-4">
                   <h3 className="font-semibold text-lg mb-2 group-hover:text-green-600">Paper Products</h3>
                   <p className="text-gray-600">Paper and packaging materials</p>

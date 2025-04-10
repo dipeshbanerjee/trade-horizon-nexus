@@ -44,8 +44,8 @@ const Products = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
           <div className="md:col-span-4">
             <img 
-              src="https://images.unsplash.com/photo-1581922819941-6ab31ab79afc?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
-              alt="General Trading" 
+              src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+              alt="General Trading - Grocery Products" 
               className="rounded-lg h-64 w-full object-cover shadow-sm"
             />
           </div>

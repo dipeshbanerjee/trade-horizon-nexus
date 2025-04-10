@@ -18,7 +18,7 @@ const Products = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
           <div className="md:col-span-4">
             <img 
-              src="https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+              src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
               alt="Agro Commodities" 
               className="rounded-lg h-64 w-full object-cover shadow-sm"
             />
@@ -70,7 +70,7 @@ const Products = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
           <div className="md:col-span-4">
             <img 
-              src="https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+              src="https://images.unsplash.com/photo-1486718448742-163732cd1544?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
               alt="Papers and Packaging" 
               className="rounded-lg h-64 w-full object-cover shadow-sm"
             />
@@ -125,7 +125,7 @@ const Products = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
           <div className="md:col-span-4">
             <img 
-              src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+              src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
               alt="FMCG Products" 
               className="rounded-lg h-64 w-full object-cover shadow-sm"
             />

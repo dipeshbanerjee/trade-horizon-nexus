@@ -15,7 +15,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center">
-              <span className="text-2xl font-bold text-green-600">Veeam</span>
+              <span className="text-2xl font-bold text-green-600">Kasper Trading Corporation</span>
             </Link>
 
             {/* Navigation */}
@@ -71,7 +71,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <p className="text-sm text-gray-600">© 2025 Veeam. All rights reserved.</p>
+              <p className="text-sm text-gray-600">© 2025 Kasper Trading Corporation. All rights reserved.</p>
             </div>
             <div className="flex space-x-4">
               <a href="#" className="text-sm text-gray-600 hover:text-green-600">Privacy Policy</a>

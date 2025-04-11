@@ -21,7 +21,7 @@ const Services = () => {
           </CardHeader>
           <CardContent>
             <p className="text-gray-700 mb-6">
-              Veeam Company handles a trusted place in the global trade ecosystem, facilitating the import and export of a wide array of 
+              Kasper Trading Corporation handles a trusted place in the global trade ecosystem, facilitating the import and export of a wide array of 
               products and commodities. We provide sourcing, distribution expertise, quality inspection, manufacturing, and distribution across the 
               globe to meet your needs.
             </p>
@@ -41,7 +41,7 @@ const Services = () => {
           </CardHeader>
           <CardContent>
             <p className="text-gray-700 mb-6">
-              At Veeam Company Services, we enable businesses to expand globally through seamless procurement, distribution, and delivery 
+              At Kasper Trading Corporation Services, we enable businesses to expand globally through seamless procurement, distribution, and delivery 
               solutions. With strong governance standards and established markets such as Africa, Asia, USA, Canada, and the 
               Middle East, we empower businesses to establish effective distribution channels and reach their target markets efficiently.
             </p>

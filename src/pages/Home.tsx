@@ -44,8 +44,7 @@ const Home = () => {
             Delivering Quality, Innovation, and Global Reach
           </h2>
           <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">
-            At Veeam, we are committed to providing the top quality products across areas of businesses worldwide. 
-            As a trusted supplier, we pride ourselves on fast delivery, reliability, and efficiency of our services.
+            At Kasper Trading Corporation, we are committed to providing top-tier products that meet the diverse needs of businesses worldwide. As a trusted exporter, we pride ourselves on the quality, reliability, and efficiency of our services. Whether you are looking to source high-quality agro commodities, modern consumer goods, or sustainable packaging solutions,
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

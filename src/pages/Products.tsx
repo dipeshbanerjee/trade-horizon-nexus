@@ -18,7 +18,7 @@ const Products = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
           <div className="md:col-span-4">
             <img 
-              src="https://images.unsplash.com/photo-1493962853295-0fd70327578a?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+              src="/lovable-uploads/2829ca18-bad4-4e49-9f9a-efcc597e91e2.png" 
               alt="Agro Commodities" 
               className="rounded-lg h-64 w-full object-cover shadow-sm"
             />
@@ -44,7 +44,7 @@ const Products = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
           <div className="md:col-span-4">
             <img 
-              src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+              src="/lovable-uploads/783d3771-919d-42bb-b716-70b5c4ca4581.png" 
               alt="General Trading - Grocery Products" 
               className="rounded-lg h-64 w-full object-cover shadow-sm"
             />
@@ -70,7 +70,7 @@ const Products = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
           <div className="md:col-span-4">
             <img 
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+              src="/lovable-uploads/8b3b5f07-7e51-4947-8554-584599cb52c1.png" 
               alt="Papers and Packaging" 
               className="rounded-lg h-64 w-full object-cover shadow-sm"
             />
@@ -125,8 +125,8 @@ const Products = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
           <div className="md:col-span-4">
             <img 
-              src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
-              alt="FMCG Products" 
+              src="/lovable-uploads/151b173d-7798-4da1-bfe5-3c9d60be3ec8.png" 
+              alt="FMCG Products - Cookies" 
               className="rounded-lg h-64 w-full object-cover shadow-sm"
             />
           </div>

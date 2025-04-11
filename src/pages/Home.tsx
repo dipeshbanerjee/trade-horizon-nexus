@@ -109,7 +109,7 @@ const Home = () => {
             <Link to="/products" className="group">
               <div className="bg-white rounded-lg shadow overflow-hidden hover:shadow-md transition-shadow">
                 <img 
-                  src="https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+                  src="/lovable-uploads/2829ca18-bad4-4e49-9f9a-efcc597e91e2.png" 
                   alt="Agro Commodities" 
                   className="h-48 w-full object-cover"
                 />
@@ -123,7 +123,7 @@ const Home = () => {
             <Link to="/products" className="group">
               <div className="bg-white rounded-lg shadow overflow-hidden hover:shadow-md transition-shadow">
                 <img 
-                  src="https://images.unsplash.com/photo-1581922819941-6ab31ab79afc?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+                  src="/lovable-uploads/783d3771-919d-42bb-b716-70b5c4ca4581.png" 
                   alt="General Trading" 
                   className="h-48 w-full object-cover"
                 />
@@ -137,7 +137,7 @@ const Home = () => {
             <Link to="/products" className="group">
               <div className="bg-white rounded-lg shadow overflow-hidden hover:shadow-md transition-shadow">
                 <img 
-                  src="https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+                  src="/lovable-uploads/8b3b5f07-7e51-4947-8554-584599cb52c1.png" 
                   alt="Paper Products" 
                   className="h-48 w-full object-cover"
                 />

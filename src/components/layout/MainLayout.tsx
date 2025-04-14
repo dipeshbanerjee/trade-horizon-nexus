@@ -30,6 +30,15 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
                 Home
               </Link>
               <Link 
+                to="/about-us" 
+                className={cn(
+                  "text-gray-700 hover:text-green-600 px-3 py-2 text-sm font-medium",
+                  currentPath === "/about-us" && "text-green-600"
+                )}
+              >
+                About Us
+              </Link>
+              <Link 
                 to="/products" 
                 className={cn(
                   "text-gray-700 hover:text-green-600 px-3 py-2 text-sm font-medium",

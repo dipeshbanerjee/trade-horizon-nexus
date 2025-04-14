@@ -11,6 +11,7 @@ import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
+import AboutUs from "./pages/AboutUs";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => {
               <Route path="/products" element={<MainLayout><Products /></MainLayout>} />
               <Route path="/services" element={<MainLayout><Services /></MainLayout>} />
               <Route path="/contact" element={<MainLayout><Contact /></MainLayout>} />
+              <Route path="/about-us" element={<MainLayout><AboutUs /></MainLayout>} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </TooltipProvider>

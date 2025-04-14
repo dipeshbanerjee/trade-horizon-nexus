@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Building, Users, Award, Globe } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const AboutUs = () => {
   return (
@@ -23,8 +24,8 @@ const AboutUs = () => {
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="md:w-1/2">
               <img 
-                src="/public/lovable-uploads/151b173d-7798-4da1-bfe5-3c9d60be3ec8.png" 
-                alt="Our Story" 
+                src="/public/lovable-uploads/783d3771-919d-42bb-b716-70b5c4ca4581.png" 
+                alt="Our Story - Indian Trading Company" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
             </div>
@@ -84,38 +85,29 @@ const AboutUs = () => {
           <h2 className="text-3xl font-bold text-center mb-12">Our Leadership Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="w-32 h-32 rounded-full bg-gray-200 mx-auto mb-4 overflow-hidden">
-                <img 
-                  src="/placeholder.svg" 
-                  alt="CEO" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold mb-1">John Davis</h3>
+              <Avatar className="w-32 h-32 mx-auto mb-4">
+                <AvatarImage src="/public/lovable-uploads/2829ca18-bad4-4e49-9f9a-efcc597e91e2.png" alt="CEO" />
+                <AvatarFallback>VK</AvatarFallback>
+              </Avatar>
+              <h3 className="text-xl font-semibold mb-1">Vikram Kapoor</h3>
               <p className="text-green-600 mb-3">Chief Executive Officer</p>
               <p className="text-gray-600">With over 20 years of experience in international trade and supply chain management.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="w-32 h-32 rounded-full bg-gray-200 mx-auto mb-4 overflow-hidden">
-                <img 
-                  src="/placeholder.svg" 
-                  alt="COO" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold mb-1">Sarah Johnson</h3>
+              <Avatar className="w-32 h-32 mx-auto mb-4">
+                <AvatarImage src="/public/lovable-uploads/8b3b5f07-7e51-4947-8554-584599cb52c1.png" alt="COO" />
+                <AvatarFallback>PG</AvatarFallback>
+              </Avatar>
+              <h3 className="text-xl font-semibold mb-1">Priya Gupta</h3>
               <p className="text-green-600 mb-3">Chief Operations Officer</p>
               <p className="text-gray-600">Specializes in optimizing logistics and ensuring smooth operational processes.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="w-32 h-32 rounded-full bg-gray-200 mx-auto mb-4 overflow-hidden">
-                <img 
-                  src="/placeholder.svg" 
-                  alt="CMO" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold mb-1">Michael Chen</h3>
+              <Avatar className="w-32 h-32 mx-auto mb-4">
+                <AvatarImage src="/public/lovable-uploads/151b173d-7798-4da1-bfe5-3c9d60be3ec8.png" alt="CMO" />
+                <AvatarFallback>RM</AvatarFallback>
+              </Avatar>
+              <h3 className="text-xl font-semibold mb-1">Raj Mehta</h3>
               <p className="text-green-600 mb-3">Chief Marketing Officer</p>
               <p className="text-gray-600">Expert in developing market entry strategies and building brand presence internationally.</p>
             </div>

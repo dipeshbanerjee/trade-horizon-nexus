@@ -1,11 +1,22 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Mail, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { toast } from "@/components/ui/use-toast";
 
 const Home = () => {
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    toast({
+      title: "Message sent!",
+      description: "We'll get back to you as soon as possible.",
+    });
+  };
+
   return (
     <div>
       {/* Hero Section */}
@@ -154,6 +165,85 @@ const Home = () => {
                 View All Products
               </Button>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Us Form Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-4">Contact Us</h2>
+          <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">
+            Get in touch with our team to discuss your trading needs
+          </p>
+
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            {/* Contact Information */}
+            <div className="lg:col-span-4">
+              <div className="bg-gray-50 p-6 rounded-lg h-full">
+                <h3 className="text-xl font-semibold mb-6">Reach Out to Us</h3>
+                
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <Phone className="h-5 w-5 text-green-600 mt-1 mr-3" />
+                    <div>
+                      <p className="font-medium">Phone</p>
+                      <p className="text-gray-600">+1 (555) 123-4567</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <Mail className="h-5 w-5 text-green-600 mt-1 mr-3" />
+                    <div>
+                      <p className="font-medium">Email</p>
+                      <p className="text-gray-600">info@kaspertrading.com</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <MapPin className="h-5 w-5 text-green-600 mt-1 mr-3" />
+                    <div>
+                      <p className="font-medium">Address</p>
+                      <p className="text-gray-600">123 Business Avenue,<br />New York, NY 10001<br />United States</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Contact Form */}
+            <div className="lg:col-span-8">
+              <div className="bg-white border border-gray-100 rounded-lg shadow-sm p-6">
+                <form onSubmit={handleSubmit} className="space-y-4">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                      <Input id="name" placeholder="Your name" />
+                    </div>
+                    <div>
+                      <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                      <Input id="email" type="email" placeholder="Your email address" />
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                    <Input id="subject" placeholder="How can we help you?" />
+                  </div>
+                  
+                  <div>
+                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                    <Textarea id="message" placeholder="Your message" rows={4} />
+                  </div>
+                  
+                  <div className="text-right">
+                    <Button type="submit" className="bg-green-600 hover:bg-green-700">
+                      Send Message
+                    </Button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </section>

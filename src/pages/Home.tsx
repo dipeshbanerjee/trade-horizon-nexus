@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Mail, Phone, MapPin } from "lucide-react";
@@ -107,7 +106,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Product Categories */}
+      {/* Product Categories Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-4">Our Product Categories</h2>
@@ -165,6 +164,23 @@ const Home = () => {
                 View All Products
               </Button>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* New Export Partner Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8">
+            Your Strategic Export Partner
+          </h2>
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="text-lg text-gray-700 mb-6">
+              In today's competitive global market, choosing the right export partner can make all the difference. We combine deep market understanding with a sharp focus on quality, consistency, and customer satisfaction. Our strength lies not only in the products we deliver but in the relationships we build. With flexible solutions, transparent processes, and a proactive support team, we ensure that your sourcing experience is smooth, timely, and aligned with your business goals.
+            </p>
+            <p className="text-lg text-gray-700 italic">
+              From first inquiry to final delivery — we're here to make exporting effortless and impactful.
+            </p>
           </div>
         </div>
       </section>

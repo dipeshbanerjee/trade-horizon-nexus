@@ -1,6 +1,6 @@
+
 import React from "react";
 import { Building, Users, Award, Globe } from "lucide-react";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const AboutUs = () => {
   return (
@@ -73,42 +73,6 @@ const AboutUs = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Reliability</h3>
               <p className="text-gray-600">We deliver on our promises with consistent and timely service.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Leadership Team</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <Avatar className="w-32 h-32 mx-auto mb-4">
-                <AvatarImage src="/public/lovable-uploads/2829ca18-bad4-4e49-9f9a-efcc597e91e2.png" alt="CEO" />
-                <AvatarFallback>VK</AvatarFallback>
-              </Avatar>
-              <h3 className="text-xl font-semibold mb-1">Vikram Kapoor</h3>
-              <p className="text-green-600 mb-3">Chief Executive Officer</p>
-              <p className="text-gray-600">With over 20 years of experience in international trade and supply chain management.</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <Avatar className="w-32 h-32 mx-auto mb-4">
-                <AvatarImage src="/public/lovable-uploads/8b3b5f07-7e51-4947-8554-584599cb52c1.png" alt="COO" />
-                <AvatarFallback>PG</AvatarFallback>
-              </Avatar>
-              <h3 className="text-xl font-semibold mb-1">Priya Gupta</h3>
-              <p className="text-green-600 mb-3">Chief Operations Officer</p>
-              <p className="text-gray-600">Specializes in optimizing logistics and ensuring smooth operational processes.</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <Avatar className="w-32 h-32 mx-auto mb-4">
-                <AvatarImage src="/public/lovable-uploads/151b173d-7798-4da1-bfe5-3c9d60be3ec8.png" alt="CMO" />
-                <AvatarFallback>RM</AvatarFallback>
-              </Avatar>
-              <h3 className="text-xl font-semibold mb-1">Raj Mehta</h3>
-              <p className="text-green-600 mb-3">Chief Marketing Officer</p>
-              <p className="text-gray-600">Expert in developing market entry strategies and building brand presence internationally.</p>
             </div>
           </div>
         </div>

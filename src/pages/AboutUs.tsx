@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Building, Users, Award, Globe } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -112,22 +111,6 @@ const AboutUs = () => {
               <p className="text-gray-600">Expert in developing market entry strategies and building brand presence internationally.</p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Call to Action */}
-      <section className="py-16 bg-green-600 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Ready to Work With Us?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Let's discuss how we can help meet your sourcing and export requirements.
-          </p>
-          <a 
-            href="/contact" 
-            className="inline-flex items-center bg-white text-green-600 font-semibold px-6 py-3 rounded-md hover:bg-gray-100 transition duration-300"
-          >
-            Contact Our Team
-          </a>
         </div>
       </section>
     </div>
